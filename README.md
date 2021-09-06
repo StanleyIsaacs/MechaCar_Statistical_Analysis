@@ -19,9 +19,9 @@ mpg = 6.27 * vehicle_length - 3.41 * AWD + 3.55 * ground_clearance - 104
 <img width="517" alt="LinearRegression" src="https://user-images.githubusercontent.com/82114481/132247217-29f1e06e-3043-43b7-ba4c-fbf572715847.png">
 
 ## Summary Statistics of Supension Coils
-*MechaCar suspension coils specifications say the variance of the suspension coils cannnot exceed 100 pounds per square inch.
-*The design specifications are universal for all manufacturing lots with a global variance of 62.3 psi.
-*Lot 1 and Lot 2 are specifications with respective variances of 0.98 and 7.5 psi. The Lot 3 is out of specifications with a variance of 170.3 psi.
+* MechaCar suspension coils specifications say the variance of the suspension coils cannnot exceed 100 pounds per square inch.
+* The design specifications are universal for all manufacturing lots with a global variance of 62.3 psi.
+* Lot 1 and Lot 2 are specifications with respective variances of 0.98 and 7.5 psi. The Lot 3 is out of specifications with a variance of 170.3 psi.
 
 <img width="333" alt="AllLots" src="https://user-images.githubusercontent.com/82114481/132247684-4ed20a1d-9726-4d94-bda8-e8e5a22098b7.png">
 
@@ -39,4 +39,10 @@ mpg = 6.27 * vehicle_length - 3.41 * AWD + 3.55 * ground_clearance - 104
 <img width="445" alt="Lot1" src="https://user-images.githubusercontent.com/82114481/132248414-8f3c85a7-ed70-45f5-a492-3589a34654c2.png">
 <img width="443" alt="Lot2" src="https://user-images.githubusercontent.com/82114481/132248416-fdc76fdf-d1ca-4f67-81ab-8e427d1e8414.png">
 <img width="448" alt="Lot3" src="https://user-images.githubusercontent.com/82114481/132248426-24d7ca7d-4263-4749-897d-b00e956ee68e.png">
+
+### MechaCar vs. The Competion: A Study
+*We will perform a statistical analysis using the following metrics: 0-60 time, brake distance, fuel economy, power and safety ratings. 
+*The null hypothesis would be that each of the performance metrics is statistically similar between the MechaCar prototype and all other vehicles.
+* We are using the one-way Anova as it is used to compare means of continuous nurmerical variables accross several groupings. For this specific study we would compare the means for each metric accross all manufacturers.
+* We will need data of MechaCar vehicles and its competitors, gathered in a single dataframe where each metric is a column. We can scrape the data from vehicle data APIs. A good one can be found at http://scrapinghub.com/data-api-vehicle 
 
